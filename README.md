@@ -81,10 +81,10 @@ Include:
 
 Screenshots of IntelliJ/Maven console showing test execution.
 
-<img width="763" height="161" alt="img" src="img.png" />
-<img width="780" height="311" alt="img_1" src="https://github.com/user-attachments/assets/4f6dfb34-411b-4619-8a2c-cfd214116ada" />
-<img width="777" height="284" alt="img_2" src="https://github.com/user-attachments/assets/14e18478-973a-4af1-b5fa-b88ebfc0407f" />
-<img width="798" height="301" alt="img_3" src="https://github.com/user-attachments/assets/27005b04-f89a-48fd-8090-dae79fd4f0c1" />
+<img width="763" height="161" alt="img" src="(https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img.png)" />
+<img width="780" height="311" alt="img_1" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img_1.png" />
+<img width="777" height="284" alt="img_2" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img_2.png" />
+<img width="798" height="301" alt="img_3" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img_3.png" />
 
 
 👩‍💻 Author
