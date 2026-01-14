@@ -47,12 +47,16 @@ TestNG
 WebDriverManager
 
 ### 🚀 How to Run Tests
-### Option 1: Run All Tests Together ```bash mvn test
+### Option 1: Run All Tests Together 
+```
+mvn test
+```
 Or right‑click testng.xml in IntelliJ → Run Sovio Automation Suite.
 
 Run Individual Test
-bash
+```
 mvn -Dtest=tests.SignInTest test
+```
 ✅ Expected Results
 Pages load successfully:
 
