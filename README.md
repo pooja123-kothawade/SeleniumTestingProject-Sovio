@@ -17,7 +17,7 @@ PasskeyRegistrationTest → verifies the Passkey registration option is visible.
 
 PasskeySignInTest → verifies the Passkey sign‑in option is visible.
 
-📂 Project Structure
+## 📂 Project Structure
 Code
 SovioAutomation/
 ├── pom.xml
@@ -46,7 +46,7 @@ TestNG
 
 WebDriverManager
 
-🚀 Running Tests
+### 🚀 How to Run Tests
 Run All Tests
 bash
 mvn test
