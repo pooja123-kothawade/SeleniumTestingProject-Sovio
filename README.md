@@ -1,4 +1,4 @@
-Sovio Automation Suite
+#Sovio Automation Suite
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Stack](https://img.shields.io/badge/stack-Selenium%20%7C%20TestNG%20%7C%20Maven-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
