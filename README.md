@@ -1,7 +1,8 @@
 Sovio Automation Suite
-https://img.shields.io/badge/build-passing-brightgreen  
-https://img.shields.io/badge/stack-Selenium%20%7C%20TestNG%20%7C%20Maven-blue  
-https://img.shields.io/badge/license-MIT-lightgrey
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Stack](https://img.shields.io/badge/stack-Selenium%20%7C%20TestNG%20%7C%20Maven-blue)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
 
 📖 Overview
 This repository contains Selenium + TestNG automation tests for Sovio’s web application.
