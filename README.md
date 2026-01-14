@@ -72,16 +72,16 @@ Manual testing is required for external dependencies.
 Include:
 
 **Console output – UserRegistrationTest**  
-![Screenshot 1](screenshots/img.png)
-
-**Console output – SignInTest**  
 ![Screenshot 2](screenshots/img_1.png)
 
-**Console output – PasskeyRegistrationTest**  
+**Console output – SignInTest**  
 ![Screenshot 3](screenshots/img_2.png)
 
-**Console output – PasskeySignInTest**  
+**Console output – PasskeyRegistrationTest**  
 ![Screenshot 4](screenshots/img_3.png)
+
+**Console output – PasskeySignInTest**  
+![Screenshot 1](screenshots/img.png)
  
 
 
