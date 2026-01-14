@@ -81,10 +81,10 @@ Include:
 
 Screenshots of IntelliJ/Maven console showing test execution.
 
-<img width="763" height="161" alt="img" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img.png?raw=true" />
-<img width="780" height="311" alt="img_1" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_1.png?raw=true" />
-<img width="777" height="284" alt="img_2" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_2.png?raw=true" />
-<img width="777" height="284" alt="img_3" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_3.png?raw=true" />
+![Screenshot 1](screenshots/img.png)
+ ![Screenshot 2](screenshots/img_1.png)
+![Screenshot 3](screenshots/img_2.png)
+![Screenshot 4](screenshots/img_3.png
 
 
 👩‍💻 Author
