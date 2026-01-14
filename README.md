@@ -81,10 +81,11 @@ Include:
 
 Screenshots of IntelliJ/Maven console showing test execution.
 
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img.png](img.png)
+<img width="763" height="161" alt="img" src="https://github.com/user-attachments/assets/3b11bc29-ad9d-4235-954b-e7d7a3693751" />
+<img width="780" height="311" alt="img_1" src="https://github.com/user-attachments/assets/4f6dfb34-411b-4619-8a2c-cfd214116ada" />
+<img width="777" height="284" alt="img_2" src="https://github.com/user-attachments/assets/14e18478-973a-4af1-b5fa-b88ebfc0407f" />
+<img width="798" height="301" alt="img_3" src="https://github.com/user-attachments/assets/27005b04-f89a-48fd-8090-dae79fd4f0c1" />
+
 
 👩‍💻 Author
 Automation suite prepared for Sovio QA assignment.
