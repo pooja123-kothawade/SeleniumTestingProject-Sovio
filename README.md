@@ -1,96 +1,84 @@
-# Sovio Automation Suite
+Sovio Automation Suite
+https://img.shields.io/badge/build-passing-brightgreen  
+https://img.shields.io/badge/stack-Selenium%20%7C%20TestNG%20%7C%20Maven-blue  
+https://img.shields.io/badge/license-MIT-lightgrey
 
-This project contains Selenium + TestNG automation tests for Sovio’s web application.  
-It covers four basic flows:
+📖 Overview
+This repository contains Selenium + TestNG automation tests for Sovio’s web application.
+The suite validates critical authentication flows to ensure stability and usability.
 
-- **UserRegistrationTest** → verifies the Sign‑Up page loads correctly.
-- **SignInTest** → verifies the Sign‑In page loads correctly.
-- **PasskeyRegistrationTest** → verifies the Passkey registration option is visible.
-- **PasskeySignInTest** → verifies the Passkey sign‑in option is visible.
+🧪 Test Coverage
+UserRegistrationTest → verifies the Sign‑Up page loads correctly.
 
----
+SignInTest → verifies the Sign‑In page loads correctly.
 
-## 📂 Project Structure
+PasskeyRegistrationTest → verifies the Passkey registration option is visible.
 
+PasskeySignInTest → verifies the Passkey sign‑in option is visible.
+
+📂 Project Structure
+Code
 SovioAutomation/
 ├── pom.xml
 ├── testng.xml
 ├── README.md
 └── src/
-└── test/
-└── java/
-└── tests/
-├── UserRegistrationTest.java
-├── SignInTest.java
-├── PasskeyRegistrationTest.java
-└── PasskeySignInTest.java
+    └── test/java/tests/
+        ├── UserRegistrationTest.java
+        ├── SignInTest.java
+        ├── PasskeyRegistrationTest.java
+        └── PasskeySignInTest.java
+⚙️ Prerequisites
+Java 11+
 
----
+Maven 3.x
 
-## ⚙️ Prerequisites
+Chrome browser (latest)
 
-- Java 11 or higher
-- Maven 3.x
-- Chrome browser (latest)
-- IntelliJ IDEA or any Java IDE
+IntelliJ IDEA or any Java IDE
 
-Dependencies are managed via **Maven** in `pom.xml`:
-- Selenium WebDriver
-- TestNG
-- WebDriverManager (auto‑downloads ChromeDriver)
+Dependencies managed via Maven (pom.xml):
 
----
+Selenium WebDriver
 
-## 🚀 How to Run Tests
+TestNG
 
-### Option 1: Run All Tests Together
-Run the TestNG suite:
-```bash
+WebDriverManager
+
+🚀 Running Tests
+Run All Tests
+bash
 mvn test
-or right‑click testng.xml in IntelliJ → Run 'Sovio Automation Suite'.
+Or right‑click testng.xml in IntelliJ → Run Sovio Automation Suite.
 
-Option 2: Run Tests Individually
-Run a single class:
-
+Run Individual Test
+bash
 mvn -Dtest=tests.SignInTest test
-Replace SignInTest with any of the other test class names.
-
 ✅ Expected Results
-Each test opens the Sovio site (https://dev.sovio.id/sign-in or https://dev.sovio.id/sign-up).
+Pages load successfully:
 
-Assertions check for static text such as:
+Sign‑Up → "Create an account"
 
-"Create an account"
+Sign‑In → "Sign in to your account"
 
-"Sign in to your account"
+Passkey flows → "Continue with email" / "Continue with passkey"
 
-"Continue with email"
+⚠️ Limitations:
+Complex flows like email verification, QR scanning, and device setup are not automated.
+Manual testing is required for external dependencies.
 
-"Continue with passkey"
+📸 Evidence of Execution
+Console output – UserRegistrationTest  
 
-All tests should pass if the pages load and contain the expected text.
-⚠️ Notes & Limitations
-Complex flows like email verification, QR scanning, and passkey device setup are not automated here.
 
-Tests focus on page load validation and UI text presence to ensure stability.
+Console output – SignInTest
 
-Manual testing is required for external dependencies (email inbox, Android device).
+Console output – PasskeyRegistrationTest  
 
-📸 Submission Evidence  
-Include:
 
-Screenshots of IntelliJ/Maven console showing test execution.
-
-![Screenshot 1](screenshots/img.png)
- ![Screenshot 2](screenshots/img_1.png)
-![Screenshot 3](screenshots/img_2.png)
-![Screenshot 4](screenshots/img_3.png
+Console output – PasskeySignInTest  
 
 
 👩‍💻 Author
-Automation suite prepared for Sovio QA assignment.
-Technologies: Selenium WebDriver, TestNG, Maven, WebDriverManager.
-
-
----
-
+Prepared for Sovio QA assignment  
+Technologies: Selenium WebDriver, TestNG, Maven, WebDriverManager
