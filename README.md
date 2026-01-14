@@ -76,17 +76,15 @@ Tests focus on page load validation and UI text presence to ensure stability.
 
 Manual testing is required for external dependencies (email inbox, Android device).
 
-📸 Submission Evidence
+📸 Submission Evidence  
 Include:
 
 Screenshots of IntelliJ/Maven console showing test execution.
 
-<img width="763" height="161" alt="img" src="(https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img.png)" />
-<img width="780" height="311" alt="img_1" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img_1.png" />
-<img width="777" height="284" alt="img_2" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/b5d3296254378bb82d2bae0416feace3d1c8c77d/img_2.png" />
-<img width="798" height="301" alt="image" src="https://github.com/user-attachments/assets/24a55c37-aa31-4e18-a7f2-30c1e4af4f03" />
-
-
+<img width="763" height="161" alt="img" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img.png?raw=true" />
+<img width="780" height="311" alt="img_1" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_1.png?raw=true" />
+<img width="777" height="284" alt="img_2" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_2.png?raw=true" />
+<img width="777" height="284" alt="img_3" src="https://github.com/pooja123-kothawade/SeleniumTestingProject-Sovio/blob/main/img_3.png?raw=true" />
 
 
 👩‍💻 Author
