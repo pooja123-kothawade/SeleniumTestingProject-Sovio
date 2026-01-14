@@ -4,11 +4,11 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 
-📖 Overview
+# 📖 Overview
 This repository contains Selenium + TestNG automation tests for Sovio’s web application.
 The suite validates critical authentication flows to ensure stability and usability.
 
-🧪 Test Coverage
+# 🧪 Test Coverage
 UserRegistrationTest → verifies the Sign‑Up page loads correctly.
 
 SignInTest → verifies the Sign‑In page loads correctly.
@@ -29,21 +29,14 @@ SovioAutomation/
         ├── SignInTest.java
         ├── PasskeyRegistrationTest.java
         └── PasskeySignInTest.java
-⚙️ Prerequisites
+# ⚙️ Prerequisites
 Java 11+
-
 Maven 3.x
-
 Chrome browser (latest)
-
 IntelliJ IDEA or any Java IDE
-
 Dependencies managed via Maven (pom.xml):
-
 Selenium WebDriver
-
 TestNG
-
 WebDriverManager
 
 ### 🚀 How to Run Tests
@@ -69,18 +62,15 @@ mvn -Dtest=tests.PasskeySignInTest test
 ```
 ✅ Expected Results
 Pages load successfully:
-
 Sign‑Up → "Create an account"
-
 Sign‑In → "Sign in to your account"
-
 Passkey flows → "Continue with email" / "Continue with passkey"
 
-⚠️ Limitations:
+# ⚠️ Limitations:
 Complex flows like email verification, QR scanning, and device setup are not automated.
 Manual testing is required for external dependencies.
 
-📸 Submission Evidence  
+# 📸 Submission Evidence  
 Include:
 
 **Console output – UserRegistrationTest**  
@@ -97,6 +87,6 @@ Include:
  
 
 
-👩‍💻 Author
+# 👩‍💻 Author
 Prepared for Sovio QA assignment  
 Technologies: Selenium WebDriver, TestNG, Maven, WebDriverManager
