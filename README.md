@@ -18,17 +18,8 @@ PasskeyRegistrationTest → verifies the Passkey registration option is visible.
 PasskeySignInTest → verifies the Passkey sign‑in option is visible.
 
 ## 📂 Project Structure
-Code
-SovioAutomation/
-├── pom.xml
-├── testng.xml
-├── README.md
-└── src/
-    └── test/java/tests/
-        ├── UserRegistrationTest.java
-        ├── SignInTest.java
-        ├── PasskeyRegistrationTest.java
-        └── PasskeySignInTest.java
+```tree SovioAutomation/ ├── pom.xml ├── testng.xml ├── README.md └── src/ └── test/java/tests/ ├── UserRegistrationTest.java ├── SignInTest.java ├── PasskeyRegistrationTest.java └── PasskeySignInTest.java
+```
 # ⚙️ Prerequisites
 Java 11+
 Maven 3.x
