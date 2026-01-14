@@ -55,7 +55,17 @@ Or right‑click testng.xml in IntelliJ → Run Sovio Automation Suite.
 
 Run Individual Test
 ```
+mvn -Dtest=tests.UserRegistrationTest test
+```
+
+```
 mvn -Dtest=tests.SignInTest test
+```
+```
+mvn -Dtest=tests.PasskeyRegistrationTest test
+```
+```
+mvn -Dtest=tests.PasskeySignInTest test
 ```
 ✅ Expected Results
 Pages load successfully:
