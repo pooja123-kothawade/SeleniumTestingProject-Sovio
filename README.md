@@ -68,16 +68,21 @@ Passkey flows → "Continue with email" / "Continue with passkey"
 Complex flows like email verification, QR scanning, and device setup are not automated.
 Manual testing is required for external dependencies.
 
-📸 Evidence of Execution
-Console output – UserRegistrationTest  
+📸 Submission Evidence  
+Include:
 
+**Console output – UserRegistrationTest**  
+![Screenshot 1](screenshots/img.png)
 
-Console output – SignInTest
+**Console output – SignInTest**  
+![Screenshot 2](screenshots/img_1.png)
 
-Console output – PasskeyRegistrationTest  
+**Console output – PasskeyRegistrationTest**  
+![Screenshot 3](screenshots/img_2.png)
 
-
-Console output – PasskeySignInTest  
+**Console output – PasskeySignInTest**  
+![Screenshot 4](screenshots/img_3.png)
+ 
 
 
 👩‍💻 Author
